@@ -7,5 +7,10 @@
         name: nginx
         state: latest
 
+    - name: start Nginx service
+      ansible.builtin.systemd_service:
+        state: restarted
+        name: nginx
+
 
 
