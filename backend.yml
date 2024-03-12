@@ -54,7 +54,7 @@
         state: import
         name: all
         target: /app/schema/backend.sql
-        login_user: root
+        login_user: expense
         login_password: ExpenseApp@1
         login_host: mysql-dev.sheshudevops.online
 
