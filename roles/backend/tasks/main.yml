@@ -42,6 +42,7 @@
 
 
 - name: Load schema
+
   ansible.builtin.shell: mysql -h mysql-dev.sheshudevops.online -uroot -pExpenseApp@1 < /app/schema/backend.sql
 
 - name: Start Backend service
